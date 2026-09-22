@@ -1,0 +1,28 @@
+{
+  "name": "api-test-starwest",
+  "version": "1.0.0",
+  "description": "API created during the starwest API class",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swanandvalamestarwest/api-test-starwest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/swanandvalamestarwest/api-test-starwest/issues"
+  },
+  "homepage": "https://github.com/swanandvalamestarwest/api-test-starwest#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  }
+}
