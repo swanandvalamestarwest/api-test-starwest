@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "test:path-coverage": "mocha",
+    "test:load": "k6 run test/loadTesting/login.load.js",
     "test": "start-server-and-test start http://localhost:3000/api/health test:path-coverage"
   },
   "repository": {
